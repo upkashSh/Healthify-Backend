@@ -12,9 +12,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
  
-Zivov.code-workspace
 yarn.lock
-Zivov_backend.code-workspace
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
