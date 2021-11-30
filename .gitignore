@@ -1,0 +1,27 @@
+# OSX
+#
+.DS_Store
+
+ 
+
+ 
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+ 
+Zivov.code-workspace
+yarn.lock
+Zivov_backend.code-workspace
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+node_modules/ 
+config/env_local.json
+config/env_production.json
+config/env_test.json
+config/public_prod.key
+config/private_prod.key

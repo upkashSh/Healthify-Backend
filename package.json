@@ -1,0 +1,57 @@
+{
+  "name": "Health_Fit",
+  "version": "0.0.1",
+  "author": "Upaksh SHarma",
+  "scripts": {
+    "start": "set ENVIRONMENT=development&&node index.js"
+  },
+  "jest": {
+    "globals": {
+      "__DEV__": true
+    },
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "core-js": "^2.6.9",
+    "cors": "^2.8.4",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "dotenv-json": "^1.0.0",
+    "execSync": "^1.0.2",
+    "express": "^4.17.1",
+    "express-routes-mapper": "^1.1.0",
+    "helmet": "^3.12.0",
+    "install": "^0.13.0",
+    "jsonfile": "^6.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "module-alias": "^2.2.2",
+    "multer": "^1.4.2",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "husky": "^0.14.3",
+    "jest": "^24.8.0",
+    "nodemon": "^1.17.3",
+    "shx": "^0.2.2",
+    "supertest": "^3.0.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@constant": "./app/constant",
+    "@userAPI": "./app/apiControllers/users",
+    "@adminAPI": "./app/apiControllers/admin",
+    "@services": "./app/services",
+    "@models": "./app/models",
+    "@config": "./config",
+    "@common": "./app/apiControllers/common"
+  }
+}

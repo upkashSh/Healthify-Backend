@@ -1,0 +1,5 @@
+{
+    "DB_CONFIG": "{ 'database': 'health_app', 'username': 'postgres','password': '123456789', 'host': 'localhost','port':'5433','dialect': 'postgres'}",
+    "SECRET_KEY": "topSecerate",
+    "CONFIG": "{'dir': './config', 'public_pem': './config/public_dev.key','private_pem': './config/private_dev.key'}"
+}
